@@ -7,7 +7,7 @@
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
-#define OLED_RESET    -1  // Reset pin (if not used, set -1)
+#define OLED_RESET    -1  // reset pin (if not used, set -1)
 
 const char *ssid = "";
 const char *password = "";
@@ -86,7 +86,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   snprintf(message, sizeof(message), "%.*s", length, payload);
   
   if (String(topic) == mqtt_topic) {
-    float temperature = atof(message);
+    float temperature = atof(message); // int atoi if without decimals
     
     display.clearDisplay();
     display.setCursor(0, 0);
