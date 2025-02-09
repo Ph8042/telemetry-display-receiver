@@ -12,6 +12,12 @@ Pin connection setup:
 - (display) SCK(scl) -> GPIO 22 (d22) (ESP32) (default scl pin)  
 - (display) SDA -> GPIO 21 (d21) (ESP32) (default sda pin)  
 
-Please don't mind cable colors :D   
-![display-test](images/oled_display_test.png)
+Please don't mind cable colors   
+![display-test](images/oled_display_test.png)  
 
+Make sure to set up your [MQTT server](https://mosquitto.org/)  
+
+Demo: 
+![temperature-demo](images/first_telemetry_received.jpg)  
+
+ESP connects to local wifi and mqtt server and displays received current temperature value from my furnance.  
