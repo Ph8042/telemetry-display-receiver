@@ -13,5 +13,5 @@ Pin connection setup:
 - (display) SDA -> GPIO 21 (d21) (ESP32) (default sda pin)  
 
 Please don't mind cable colors :D   
-![[oled_display_test.png]]
+![display-test](images/oled_display_test.png)
 
