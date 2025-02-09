@@ -21,3 +21,9 @@ Demo:
 ![temperature-demo](images/first_telemetry_received.jpg)  
 
 ESP connects to local wifi and mqtt server and displays received current temperature value from my furnance.  
+
+Useful links:  
+- [Adafruit_GFX Lib](https://github.com/adafruit/Adafruit-GFX-Library)
+- [Adafruit_SSD1306 Lib](https://github.com/adafruit/Adafruit_SSD1306)
+- [WiFi Lib](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
+- [PubSubClient Lib](https://pubsubclient.knolleary.net)
